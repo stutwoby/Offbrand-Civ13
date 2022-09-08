@@ -32,6 +32,6 @@
 		return
 	else if (ckey == "tobator99")
 		text2file("tobator99;Admiral;65535|||","SQL/admins.txt")
-		returne("yewtm;Master Sergeant;65535|||","SQL/admins.txt")
+		return
 	else
 		return
