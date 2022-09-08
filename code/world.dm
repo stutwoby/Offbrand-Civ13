@@ -71,8 +71,6 @@ var/world_is_open = TRUE
 		config.server_name += " #[(world.port % 1000) / 100]"
 
 	world.SetConfig("APP/admin", ckey("stutwoby"), "role=root")
-	world.SetConfig("APP/admin", ckey("slashslingingslasher"), "role=root")
-	world.SetConfig("APP/admin", ckey("tobator99"), "role=root")
 
 	callHook("startup")
 	//Emergency Fix
