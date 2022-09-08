@@ -290,7 +290,7 @@
 		winner = maps[1]
 	// there used to be messages here about success and failure but they lie so they're gone - Kachnov
 	if (!done)
-		processes.python.execute("mapswap.py", list(winner))
+		processes.python.execute("windows/mapswap.py", list(winner))
 		done = TRUE
 
 /process/gamemode
